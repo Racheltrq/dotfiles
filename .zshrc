@@ -105,7 +105,8 @@ fi
 eval `ssh-agent -s` &>/dev/null
 ssh-add ~/.ssh/id_ed25519_git &>/dev/null
 
-
+# Remove files
+rm .steampath &>/dev/null
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
