@@ -108,6 +108,9 @@ ssh-add ~/.ssh/id_ed25519_git &>/dev/null
 # Remove files
 rm .steampath &>/dev/null
 
+# GPG
+export GPG_TTY=$(tty)
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
